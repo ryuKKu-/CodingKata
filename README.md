@@ -9,7 +9,6 @@ But try to reduce to the maximum the changes to make the code testable.
 
 * Fork the repository and open the solution with visual studio.
 * Commit at each step of your refactoring process.
-* When you're done, push and send the link of your repository to etienne.pierrot@mangopay.com
 
 Feel free to use another framework test or any mock library.
 If you feel that you are not able to put under tests this messy code, go straight to the refactoring without testing.
