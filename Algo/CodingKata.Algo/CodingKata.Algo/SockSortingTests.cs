@@ -20,6 +20,7 @@ namespace CodingKata.Algo
         [TestCase(new int[8] { 1, 1, 2, 2, 2, 2, 1, 1 }, 0)]
         [TestCase(new int[8] { 1, 2, 3, 5, 6, 7, 8, 3 }, 6)]
         [TestCase(new int[8] { 1, 2, 3, 5, 6, 7, 8, 9 }, 8)]
+
         public void ShouldReturnOnlySadAndLonelySocks(int[] arr, int expected)
         {
             var result = SortSocks(arr);

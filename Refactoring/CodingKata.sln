@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingKata", "CodingKata\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingKata.Tests", "CodingKata.Tests\CodingKata.Tests.csproj", "{0F5355B5-274F-496C-A032-FCF7DBA34C8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingKata.Console", "CodingKata.Console\CodingKata.Console.csproj", "{B26A1EA7-C162-403B-9419-C66846D2740A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0F5355B5-274F-496C-A032-FCF7DBA34C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F5355B5-274F-496C-A032-FCF7DBA34C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F5355B5-274F-496C-A032-FCF7DBA34C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B26A1EA7-C162-403B-9419-C66846D2740A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26A1EA7-C162-403B-9419-C66846D2740A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26A1EA7-C162-403B-9419-C66846D2740A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26A1EA7-C162-403B-9419-C66846D2740A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

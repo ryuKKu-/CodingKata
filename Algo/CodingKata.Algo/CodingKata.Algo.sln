@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32611.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingKata.Algo", "CodingKata.Algo\CodingKata.Algo.csproj", "{D657DC29-2C3B-4D9F-B2FC-94D7EBC9DE3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D657DC29-2C3B-4D9F-B2FC-94D7EBC9DE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D657DC29-2C3B-4D9F-B2FC-94D7EBC9DE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D657DC29-2C3B-4D9F-B2FC-94D7EBC9DE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D657DC29-2C3B-4D9F-B2FC-94D7EBC9DE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A47390D8-27D4-4D7E-A51F-E611F52605F5}
+	EndGlobalSection
+EndGlobal
