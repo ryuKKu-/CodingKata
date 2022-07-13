@@ -7,7 +7,10 @@ namespace CodingKata.MoneyPots;
 
 public class MoneyPotService
 {
-    public List<MoneyPot> GetWalletsByUser(User user)
+
+    #region Exercice 1
+
+    public List<MoneyPot> GetMoneyPotsByUser(User user)
     {
         var moneyPots = new List<MoneyPot>();
         var currentUser = UserSession.GetInstance().GetLoggedUser();
@@ -37,6 +40,11 @@ public class MoneyPotService
         }
     }
 
+    #endregion
+
+
+    #region Exercice 2
+
     public async Task<WalletDTO?> GetWalletDetails(int moneyPotId)
     {
         var httpClient = new HttpClient
@@ -61,4 +69,7 @@ public class MoneyPotService
         var content = await result.Content.ReadAsStringAsync();
         return JsonSerializer.Deserialize<WalletDTO>(content);
     }
+
+    #endregion
+
 }

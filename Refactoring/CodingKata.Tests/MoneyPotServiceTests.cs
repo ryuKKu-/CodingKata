@@ -3,13 +3,12 @@ using NUnit.Framework;
 
 namespace CodingKata.Tests
 {
-    public class WalletServiceTest
+    public class MoneyPotServiceTests
     {
         [Test]
         public async void TestSomething()
         {
-            var mpService = new MoneyPotService();
-            var r = await mpService.GetWalletDetails(123);
+            //TODO
         }
     }
 }

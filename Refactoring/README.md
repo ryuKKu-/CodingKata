@@ -10,8 +10,8 @@ But try to reduce to the maximum the changes to make the code testable.
 Feel free to use another framework test or any mock library.
 If you feel that you are not able to put under tests this messy code, go straight to the refactoring without testing.
 
-## 1 - Specification
-The MoneyPot service (CodingKata/MoneyPots/MoneyPotService.cs, method GetWalletsByUser) allows an user to consult the money pots of a friend.
+## 1 - Exercice 1
+The MoneyPot service (CodingKata/MoneyPots/MoneyPotService.cs, method GetWalletsByUser) allows an user to consult the money pots of a friend. You have to test the following specifications : 
 
 1. If the user is not logged, the service throws a UserNotLoggedInException.
 2. If the logged user is not friend with the user passed in argument, the service returns an empty list.
@@ -19,5 +19,5 @@ The MoneyPot service (CodingKata/MoneyPots/MoneyPotService.cs, method GetWallets
 
 Info : the database and the session is a stub which throws an exception.
 
-## 2 - Setup Host
-If you have time, please try to setup and configure an host in CodingKata.Console/Program.cs using the current solution. The goal of configuring this host is to use GetWalletsByUser and GetWalletDetails methods in the cleanest way possible.
+## 2 - Exercice 2
+If you have time, please try to setup and configure an host in CodingKata.Console/Program.cs using the current solution. The goal of configuring this host is to use GetMoneyPotsByUser and GetWalletDetails methods in the cleanest way possible.
