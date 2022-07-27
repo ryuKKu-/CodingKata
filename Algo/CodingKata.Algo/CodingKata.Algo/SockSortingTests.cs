@@ -23,7 +23,7 @@ namespace CodingKata.Algo
 
         public void ShouldReturnOnlySadAndLonelySocks(int[] arr, int expected)
         {
-            var result = SortSocks(null);
+            var result = SortSocks(arr);
 
             Assert.That(result.Length, Is.EqualTo(expected));
             Assert.That(result.Distinct().Count(), Is.EqualTo(result.Length));
