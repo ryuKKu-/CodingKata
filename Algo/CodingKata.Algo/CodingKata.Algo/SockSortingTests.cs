@@ -9,7 +9,7 @@ namespace CodingKata.Algo
 
         [Test]
         [TestCase(new int[0] { }, 0)]
-        [TestCase(new int[4] { 1, 1, 2, 2 }, 0)]
+        [TestCase(new int[4] { -1, -1, 2, 2 }, 0)]
         [TestCase(new int[4] { 1, 1, 2, 2 }, 0)]
         [TestCase(new int[4] { 1, 1, 1, 2 }, 2)]
         [TestCase(new int[4] { 1, 1, 1, 1 }, 0)]
