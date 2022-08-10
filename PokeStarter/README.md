@@ -6,7 +6,7 @@ Il est autorisé d'utiliser internet pour lire la documentation des outils / lib
 
 ## TODO:
 	- Créer un service permettant de consommer l'api [PokéAPI](https://pokeapi.co/) au travers d'un HttpClientFactory
-		- récupérer la liste paginée des Pokémons https://pokeapi.co/api/v2/pokemon/
+		- récupérer la liste paginée (https://pokeapi.co/docs/v2#resource-listspagination-section) des Pokémons https://pokeapi.co/api/v2/pokemon/
 		- afficher la liste des pokemons retournés dans un log
 	- Ajouter du logging avec Serilog
 	- Ajouter une stratégie de résilience avec Polly. Cette stratégie devra retry le call en cas de réponse HTTP autre que 2XX
